@@ -1,6 +1,8 @@
 project:
   type: website
 
+output-dir: docs
+
 website:
   title: "Quarto Website"
   navbar:
@@ -16,4 +18,3 @@ format:
     toc: true
 
 editor: visual
-
