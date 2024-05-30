@@ -1,7 +1,6 @@
 project:
   type: website
-
-output-dir: _site
+  output-dir: docs
 
 website:
   title: "Quarto Website"
@@ -9,8 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      - about.qmd
 
 format:
   html:
@@ -18,4 +16,5 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+
+
