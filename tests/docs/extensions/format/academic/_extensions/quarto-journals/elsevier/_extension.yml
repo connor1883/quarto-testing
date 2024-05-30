@@ -1,0 +1,11 @@
+name: Elsevier Journal Format
+contributes:
+  formats:
+    common:
+      date-format: full
+    pdf:
+      cite-method: natbib
+      template-partials:
+        [before-body.tex, doc-class.tex, title.tex, elsarticle.cls]
+      classoption: preprint, 3p, authoryear
+      number-sections: true
